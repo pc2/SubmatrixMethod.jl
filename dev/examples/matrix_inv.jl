@@ -8,7 +8,7 @@
 # generate our input matrix.
 using SubmatrixMethod
 SubmatrixMethod.disable_benchmarks() # hide
-M = SubmatrixMethod.generate_input_matrix(1000, 0.001)
+M = SubmatrixMethod.generate_input_matrix(1000, 0.01)
 
 # Note that `M` isn't just sparse in the value sense but actually
 # a `SparseMatrixCSC` datastructure.
@@ -58,8 +58,8 @@ BLAS.set_num_threads(1)
 
 # ## Scaling
 #
+# * [As a function of the density of the input matrix (and for various sizes)](https://git.uni-paderborn.de/pc2/julia/submatrixmethod.jl/-/tree/master/analysis/scaling_density)
 # * [As a function of the size of the input matrix (and for various densities)](https://git.uni-paderborn.de/pc2/julia/submatrixmethod.jl/-/tree/master/analysis/scaling_matrixsize)
 # * [As a function of the number of Julia / BLAS threads](https://git.uni-paderborn.de/pc2/julia/submatrixmethod.jl/-/tree/master/analysis/scaling_multithreading)
 
 # So much about speeding up matrix inversion with the submatrix method. See you in the next tutorial!
-
