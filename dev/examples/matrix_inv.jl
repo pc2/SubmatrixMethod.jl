@@ -8,7 +8,7 @@
 # generate our input matrix.
 using SubmatrixMethod
 SubmatrixMethod.disable_benchmarks() # hide
-M = SubmatrixMethod.generate_input_matrix(1000, 0.01)
+M = SubmatrixMethod.generate_input_matrix(1000, 0.001)
 
 # Note that `M` isn't just sparse in the value sense but actually
 # a `SparseMatrixCSC` datastructure.
@@ -44,8 +44,8 @@ maximum(abs.(M̃inv .- Minv))
 
 # ## Multithreading
 
-# Depending on the available resources (and the matrix size/sparsity etc.) we can try
-# to speed things up further by enabling the multithreading functionality of SubmatrixMethod.jl.
+# Depending on the size/sparsity of the input matrix (see [Scaling](@ref)), we can sometimes
+# speed things up even further by enabling the multithreading functionality of SubmatrixMethod.jl.
 # Of course, this only works if we've started Julia with multiple threads in the first place.
 Threads.nthreads()
 
@@ -53,7 +53,9 @@ Threads.nthreads()
 # to set the number of BLAS threads to one.
 BLAS.set_num_threads(1)
 
-# Alright, here comes the benchmark of the multithreaded variant
+# Alright, here comes a benchmark that shows a case where multithreading gives a significant speedup.
+M = SubmatrixMethod.generate_input_matrix(1000, 0.01)
+@btime submatrix_apply($inv, $M; multithreading=false);
 @btime submatrix_apply($inv, $M; multithreading=true);
 
 # ## Scaling
