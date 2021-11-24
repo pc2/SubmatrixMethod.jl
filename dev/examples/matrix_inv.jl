@@ -53,7 +53,7 @@ Threads.nthreads()
 # to set the number of BLAS threads to one.
 BLAS.set_num_threads(1)
 
-# Alright, here comes a benchmark that shows a case where multithreading gives a significant speedup.
+# Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
 M = SubmatrixMethod.generate_input_matrix(1000, 0.01)
 @btime submatrix_apply($inv, $M; multithreading=false);
 @btime submatrix_apply($inv, $M; multithreading=true);
