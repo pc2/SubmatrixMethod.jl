@@ -4,11 +4,11 @@
 # First, we need to generate a random input matrix `M` that we want to invert.
 # However, since the submatrix method expects a sparse symmetric
 # positive definite matrix, we can't just use `rand`. Instead,
-# we use the utility function [`SubmatrixMethod.generate_input_matrix`](@ref) to
+# we use the utility function [`sprandsymposdef`](@ref) to
 # generate our input matrix.
 using SubmatrixMethod
 SubmatrixMethod.disable_benchmarks() # hide
-M = SubmatrixMethod.generate_input_matrix(1000, 0.001)
+M = sprandsymposdef(1000, 0.001)
 
 # Note that `M` isn't just sparse in the value sense but actually
 # a `SparseMatrixCSC` datastructure.
@@ -54,7 +54,7 @@ Threads.nthreads()
 BLAS.set_num_threads(1)
 
 # Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
-M = SubmatrixMethod.generate_input_matrix(1000, 0.01)
+M = sprandsymposdef(1000, 0.01)
 @btime submatrix_apply($inv, $M; multithreading=false);
 @btime submatrix_apply($inv, $M; multithreading=true);
 
