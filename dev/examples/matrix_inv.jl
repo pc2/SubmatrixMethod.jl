@@ -55,8 +55,8 @@ BLAS.set_num_threads(1)
 
 # Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
 M = sprandsymposdef(1000, 0.01)
-@btime submatrix_apply($inv, $M; multithreading=false);
-@btime submatrix_apply($inv, $M; multithreading=true);
+@btime submatrix_apply($inv, $M, $(Serial()));
+@btime submatrix_apply($inv, $M, $(Threaded()));
 
 # ## Scaling
 #
