@@ -8,6 +8,8 @@
 # generate our input matrix.
 using SubmatrixMethod
 SubmatrixMethod.disable_benchmarks() # hide
+using MKL # hide
+BLAS.set_num_threads(1) # hide
 M = sprandsymposdef(1000, 0.001)
 
 # Note that `M` isn't just sparse in the value sense but actually
