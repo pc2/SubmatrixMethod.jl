@@ -60,6 +60,21 @@ M = sprandsymposdef(1000, 0.01)
 @btime submatrix_apply($inv, $M, $(Serial()));
 @btime submatrix_apply($inv, $M, $(Threaded()));
 
+
+
+# Pinning test:
+using ThreadPinning
+getcpuids()
+
+# Let's pin
+pinthreads(:compact)
+getcpuids()
+
+# Run test again
+M = sprandsymposdef(1000, 0.01)
+@btime submatrix_apply($inv, $M, $(Serial()));
+@btime submatrix_apply($inv, $M, $(Threaded()));
+
 # ## Scaling
 #
 # * [As a function of the density of the input matrix (and for various sizes)](https://git.uni-paderborn.de/pc2/julia/submatrixmethod.jl/-/tree/master/analysis/scaling_density)
