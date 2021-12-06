@@ -55,22 +55,12 @@ Threads.nthreads()
 # to set the number of BLAS threads to one.
 BLAS.set_num_threads(1)
 
-# Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
-M = sprandsymposdef(1000, 0.01)
-@btime submatrix_apply($inv, $M, $(Serial()));
-@btime submatrix_apply($inv, $M, $(Threaded()));
-
-
-
-# Pinning test:
+# Also, it is generally a good idea to pin Julia threads to different cores (preferrably within a NUMA domain).
+# Here, we use the package [ThreadPinning.jl](https://github.com/carstenbauer/ThreadPinning.jl) to implement a compact pinning strategy.
 using ThreadPinning
-getcpuids()
-
-# Let's pin
 pinthreads(:compact)
-getcpuids()
 
-# Run test again
+# Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
 M = sprandsymposdef(1000, 0.01)
 @btime submatrix_apply($inv, $M, $(Serial()));
 @btime submatrix_apply($inv, $M, $(Threaded()));
