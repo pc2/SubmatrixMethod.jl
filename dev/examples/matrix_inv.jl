@@ -58,8 +58,7 @@ BLAS.set_num_threads(1)
 # Also, it is generally a good idea to pin Julia threads to different cores (preferrably within a NUMA domain).
 # Here, we use the package [ThreadPinning.jl](https://github.com/carstenbauer/ThreadPinning.jl) to implement a compact pinning strategy.
 using ThreadPinning
-getcpuids()
-# pinthreads(:compact)
+pinthreads(:compact)
 
 # Alright, here comes a benchmark that shows a case where multithreading gives a decent speedup.
 M = sprandsymposdef(1000, 0.01)
