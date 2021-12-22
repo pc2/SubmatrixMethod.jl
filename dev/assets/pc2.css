@@ -56,6 +56,19 @@ html:not(.theme--documenter-dark) body #documenter code {
   html:not(.theme--documenter-dark) body #documenter code .hljs-keyword {
     color: #043164; }
 
+.admonition.is-category-warning {
+  background-color: rgba(203, 51, 101, 0.1);
+  border-color: #cb3365; }
+  .admonition.is-category-warning > .admonition-header {
+    background-color: #cb3365;
+    color: white; }
+
+html.theme--documenter-dark .admonition.is-category-warning {
+  border-color: #cb3365; }
+
+html.theme--documenter-dark .admonition.is-warning > .admonition-header {
+  background-color: #cb3365; }
+
 .admonition.is-category-terminology {
   background-color: #fffedd;
   border-color: #ffec8b; }
