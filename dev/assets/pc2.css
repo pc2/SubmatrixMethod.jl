@@ -51,37 +51,49 @@ html:not(.theme--documenter-dark) body #documenter code {
   font-family: "JuliaMono"; }
   html:not(.theme--documenter-dark) body #documenter pre .hljs-meta,
   html:not(.theme--documenter-dark) body #documenter code .hljs-meta {
-    color: #42aedd; }
+    color: #066f00; }
   html:not(.theme--documenter-dark) body #documenter pre .hljs-keyword,
   html:not(.theme--documenter-dark) body #documenter code .hljs-keyword {
-    color: #043164; }
+    color: #cb3365; }
 
-.admonition.is-category-warning {
+.admonition.is-warning {
   background-color: rgba(203, 51, 101, 0.1);
   border-color: #cb3365; }
-  .admonition.is-category-warning > .admonition-header {
+  .admonition.is-warning > .admonition-header {
     background-color: #cb3365;
     color: white; }
 
-html.theme--documenter-dark .admonition.is-category-warning {
-  border-color: #cb3365; }
+html.theme--documenter-dark .admonition.is-warning {
+  background-color: rgba(203, 51, 101, 0.1);
+  border-color: rgba(203, 51, 101, 0.5); }
+  html.theme--documenter-dark .admonition.is-warning > .admonition-header {
+    background-color: rgba(203, 51, 101, 0.5); }
 
-html.theme--documenter-dark .admonition.is-warning > .admonition-header {
-  background-color: #cb3365; }
+.admonition.is-info {
+  background-color: rgba(66, 174, 221, 0.1);
+  border-color: #42aedd; }
+  .admonition.is-info > .admonition-header {
+    background-color: #42aedd;
+    color: white; }
 
-.admonition.is-category-terminology {
-  background-color: #fffedd;
-  border-color: #ffec8b; }
-  .admonition.is-category-terminology > .admonition-header {
-    background-color: #ffec8b;
-    color: black; }
-    .admonition.is-category-terminology > .admonition-header:before {
-      content: "Terminology: ";
-      font-family: inherit;
-      font-weight: bold; }
+html.theme--documenter-dark .admonition.is-info {
+  background-color: rgba(4, 49, 100, 0.3);
+  border-color: #043164; }
+  html.theme--documenter-dark .admonition.is-info > .admonition-header {
+    background-color: #043164; }
 
-html.theme--documenter-dark .admonition.is-category-terminology {
-  border-color: #ffec8b; }
+.admonition.is-success {
+  background-color: rgba(149, 185, 52, 0.1);
+  border-color: rgba(149, 185, 52, 0.5); }
+  .admonition.is-success > .admonition-header {
+    background-color: rgba(149, 185, 52, 0.5);
+    color: white; }
+
+html.theme--documenter-dark .admonition.is-success {
+  background-color: rgba(149, 185, 52, 0.1);
+  border-color: #95b934; }
+  html.theme--documenter-dark .admonition.is-success > .admonition-header {
+    background-color: #95b934; }
 
 details {
   padding-left: 1rem;
