@@ -7154,7 +7154,7 @@ h1:hover .docs-heading-anchor-permalink, h2:hover .docs-heading-anchor-permalink
     .admonition.is-success > .admonition-body {
       color: rgba(0, 0, 0, 0.7); }
   .admonition.is-warning {
-    background-color: #fdf6f8;
+    background-color: #f9e6ec;
     border-color: #cb3365; }
     .admonition.is-warning > .admonition-header {
       background-color: #cb3365;
@@ -7530,7 +7530,7 @@ li.no-marker {
         background-color: #fff;
         color: #202020; }
       #documenter .docs-sidebar ul.docs-menu li.is-active ul.internal .tocitem:hover {
-        background-color: #cce9f6;
+        background-color: #def1f9;
         color: #202020; }
     #documenter .docs-sidebar ul.docs-menu > li.is-active:first-child {
       border-top: none; }

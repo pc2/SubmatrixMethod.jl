@@ -1125,7 +1125,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark a strong {
       color: currentColor; }
     html.theme--documenter-dark a:hover {
-      color: #eff8fc; }
+      color: #b1ddf1; }
   html.theme--documenter-dark code {
     background-color: #282f2f;
     color: #fff;
@@ -1216,7 +1216,7 @@ html.theme--documenter-dark {
       margin-right: calc(-0.375em - 1px); }
     html.theme--documenter-dark .button:hover, html.theme--documenter-dark .button.is-hovered {
       border-color: #b5b5b5;
-      color: #eff8fc; }
+      color: #b1ddf1; }
     html.theme--documenter-dark .button:focus, html.theme--documenter-dark .button.is-focused {
       border-color: #3c5dcd;
       color: #363636; }
@@ -2082,7 +2082,7 @@ html.theme--documenter-dark {
     margin-bottom: 1em; }
   html.theme--documenter-dark .content blockquote {
     background-color: whitesmoke;
-    border-left: 5px solid #dbdbdb;
+    border-left: 5px solid #666666;
     padding: 1.25em 1.5em; }
   html.theme--documenter-dark .content ol {
     list-style-position: outside;
@@ -2134,7 +2134,7 @@ html.theme--documenter-dark {
     width: 100%; }
     html.theme--documenter-dark .content table td,
     html.theme--documenter-dark .content table th {
-      border: 1px solid #dbdbdb;
+      border: 1px solid #666666;
       border-width: 0 0 1px;
       padding: 0.5em 0.75em;
       vertical-align: top; }
@@ -2335,7 +2335,7 @@ html.theme--documenter-dark {
     padding: 0;
     width: 100%; }
     html.theme--documenter-dark .progress::-webkit-progress-bar {
-      background-color: #dbdbdb; }
+      background-color: #666666; }
     html.theme--documenter-dark .progress::-webkit-progress-value {
       background-color: #fbfbfb; }
     html.theme--documenter-dark .progress::-moz-progress-bar {
@@ -2350,7 +2350,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-white::-ms-fill {
       background-color: white; }
     html.theme--documenter-dark .progress.is-white:indeterminate {
-      background-image: linear-gradient(to right, white 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, white 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-black::-webkit-progress-value {
       background-color: #0a0a0a; }
     html.theme--documenter-dark .progress.is-black::-moz-progress-bar {
@@ -2358,7 +2358,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-black::-ms-fill {
       background-color: #0a0a0a; }
     html.theme--documenter-dark .progress.is-black:indeterminate {
-      background-image: linear-gradient(to right, #0a0a0a 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #0a0a0a 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-light::-webkit-progress-value {
       background-color: whitesmoke; }
     html.theme--documenter-dark .progress.is-light::-moz-progress-bar {
@@ -2366,7 +2366,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-light::-ms-fill {
       background-color: whitesmoke; }
     html.theme--documenter-dark .progress.is-light:indeterminate {
-      background-image: linear-gradient(to right, whitesmoke 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, whitesmoke 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-dark::-webkit-progress-value, html.theme--documenter-dark .content kbd.progress::-webkit-progress-value {
       background-color: #363636; }
     html.theme--documenter-dark .progress.is-dark::-moz-progress-bar, html.theme--documenter-dark .content kbd.progress::-moz-progress-bar {
@@ -2374,7 +2374,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-dark::-ms-fill, html.theme--documenter-dark .content kbd.progress::-ms-fill {
       background-color: #363636; }
     html.theme--documenter-dark .progress.is-dark:indeterminate, html.theme--documenter-dark .content kbd.progress:indeterminate {
-      background-image: linear-gradient(to right, #363636 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #363636 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-primary::-webkit-progress-value, html.theme--documenter-dark .docstring > section > a.progress.docs-sourcelink::-webkit-progress-value {
       background-color: #4eb5de; }
     html.theme--documenter-dark .progress.is-primary::-moz-progress-bar, html.theme--documenter-dark .docstring > section > a.progress.docs-sourcelink::-moz-progress-bar {
@@ -2382,7 +2382,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-primary::-ms-fill, html.theme--documenter-dark .docstring > section > a.progress.docs-sourcelink::-ms-fill {
       background-color: #4eb5de; }
     html.theme--documenter-dark .progress.is-primary:indeterminate, html.theme--documenter-dark .docstring > section > a.progress.docs-sourcelink:indeterminate {
-      background-image: linear-gradient(to right, #4eb5de 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #4eb5de 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-link::-webkit-progress-value {
       background-color: #87cce9; }
     html.theme--documenter-dark .progress.is-link::-moz-progress-bar {
@@ -2390,7 +2390,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-link::-ms-fill {
       background-color: #87cce9; }
     html.theme--documenter-dark .progress.is-link:indeterminate {
-      background-image: linear-gradient(to right, #87cce9 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #87cce9 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-info::-webkit-progress-value {
       background-color: #3489da; }
     html.theme--documenter-dark .progress.is-info::-moz-progress-bar {
@@ -2398,7 +2398,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-info::-ms-fill {
       background-color: #3489da; }
     html.theme--documenter-dark .progress.is-info:indeterminate {
-      background-image: linear-gradient(to right, #3489da 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #3489da 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-success::-webkit-progress-value {
       background-color: #259a12; }
     html.theme--documenter-dark .progress.is-success::-moz-progress-bar {
@@ -2406,7 +2406,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-success::-ms-fill {
       background-color: #259a12; }
     html.theme--documenter-dark .progress.is-success:indeterminate {
-      background-image: linear-gradient(to right, #259a12 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #259a12 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-warning::-webkit-progress-value {
       background-color: #f4c72f; }
     html.theme--documenter-dark .progress.is-warning::-moz-progress-bar {
@@ -2414,7 +2414,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-warning::-ms-fill {
       background-color: #f4c72f; }
     html.theme--documenter-dark .progress.is-warning:indeterminate {
-      background-image: linear-gradient(to right, #f4c72f 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #f4c72f 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-danger::-webkit-progress-value {
       background-color: #cb3c33; }
     html.theme--documenter-dark .progress.is-danger::-moz-progress-bar {
@@ -2422,14 +2422,14 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-danger::-ms-fill {
       background-color: #cb3c33; }
     html.theme--documenter-dark .progress.is-danger:indeterminate {
-      background-image: linear-gradient(to right, #cb3c33 30%, #dbdbdb 30%); }
+      background-image: linear-gradient(to right, #cb3c33 30%, #666666 30%); }
     html.theme--documenter-dark .progress:indeterminate {
       animation-duration: 1.5s;
       animation-iteration-count: infinite;
       animation-name: moveIndeterminate;
       animation-timing-function: linear;
-      background-color: #dbdbdb;
-      background-image: linear-gradient(to right, #fbfbfb 30%, #dbdbdb 30%);
+      background-color: #666666;
+      background-image: linear-gradient(to right, #fbfbfb 30%, #666666 30%);
       background-position: top left;
       background-repeat: no-repeat;
       background-size: 150% 150%; }
@@ -3322,12 +3322,12 @@ html.theme--documenter-dark {
       background-color: #eeeeee;
       color: #363636; }
     html.theme--documenter-dark .file-label:hover .file-name {
-      border-color: #d5d5d5; }
+      border-color: #606060; }
     html.theme--documenter-dark .file-label:active .file-cta {
       background-color: #e8e8e8;
       color: #363636; }
     html.theme--documenter-dark .file-label:active .file-name {
-      border-color: #cfcfcf; }
+      border-color: #595959; }
   html.theme--documenter-dark .file-input {
     height: 100%;
     left: 0;
@@ -3338,7 +3338,7 @@ html.theme--documenter-dark {
     width: 100%; }
   html.theme--documenter-dark .file-cta,
   html.theme--documenter-dark .file-name {
-    border-color: #dbdbdb;
+    border-color: #666666;
     border-radius: 4px;
     font-size: 1em;
     padding-left: 1em;
@@ -3348,7 +3348,7 @@ html.theme--documenter-dark {
     background-color: whitesmoke;
     color: #4a4a4a; }
   html.theme--documenter-dark .file-name {
-    border-color: #dbdbdb;
+    border-color: #666666;
     border-style: solid;
     border-width: 1px 1px 1px 0;
     display: block;
@@ -3615,7 +3615,7 @@ html.theme--documenter-dark {
       justify-content: center;
       padding: 0 0.75em; }
       html.theme--documenter-dark .breadcrumb a:hover {
-        color: #eff8fc; }
+        color: #b1ddf1; }
     html.theme--documenter-dark .breadcrumb li {
       align-items: center;
       display: flex; }
@@ -3692,7 +3692,7 @@ html.theme--documenter-dark {
     padding: 1rem 1.25rem; }
   html.theme--documenter-dark .card-footer {
     background-color: transparent;
-    border-top: 1px solid #dbdbdb;
+    border-top: 1px solid #666666;
     align-items: stretch;
     display: flex; }
   html.theme--documenter-dark .card-footer-item {
@@ -3704,7 +3704,7 @@ html.theme--documenter-dark {
     justify-content: center;
     padding: 0.75rem; }
     html.theme--documenter-dark .card-footer-item:not(:last-child) {
-      border-right: 1px solid #dbdbdb; }
+      border-right: 1px solid #666666; }
   html.theme--documenter-dark .card .media:not(:last-child) {
     margin-bottom: 1.5rem; }
   html.theme--documenter-dark .dropdown {
@@ -3757,7 +3757,7 @@ html.theme--documenter-dark {
       background-color: #87cce9;
       color: #fff; }
   html.theme--documenter-dark .dropdown-divider {
-    background-color: #dbdbdb;
+    background-color: #666666;
     border: none;
     display: block;
     height: 1px;
@@ -3843,7 +3843,7 @@ html.theme--documenter-dark {
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px; }
     html.theme--documenter-dark .list-item:not(:last-child) {
-      border-bottom: 1px solid #dbdbdb; }
+      border-bottom: 1px solid #666666; }
     html.theme--documenter-dark .list-item.is-active {
       background-color: #87cce9;
       color: #fff; }
@@ -3857,7 +3857,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .media .content:not(:last-child) {
       margin-bottom: 0.75rem; }
     html.theme--documenter-dark .media .media {
-      border-top: 1px solid rgba(219, 219, 219, 0.5);
+      border-top: 1px solid rgba(102, 102, 102, 0.5);
       display: flex;
       padding-top: 0.75rem; }
       html.theme--documenter-dark .media .media .content:not(:last-child),
@@ -3868,7 +3868,7 @@ html.theme--documenter-dark {
         html.theme--documenter-dark .media .media .media + .media {
           margin-top: 0.5rem; }
     html.theme--documenter-dark .media + .media {
-      border-top: 1px solid rgba(219, 219, 219, 0.5);
+      border-top: 1px solid rgba(102, 102, 102, 0.5);
       margin-top: 1rem;
       padding-top: 1rem; }
     html.theme--documenter-dark .media.is-large + .media {
@@ -3913,7 +3913,7 @@ html.theme--documenter-dark {
         background-color: #87cce9;
         color: #fff; }
     html.theme--documenter-dark .menu-list li ul {
-      border-left: 1px solid #dbdbdb;
+      border-left: 1px solid #666666;
       margin: 0.75em;
       padding-left: 0.75em; }
   html.theme--documenter-dark .menu-label {
@@ -4040,7 +4040,7 @@ html.theme--documenter-dark {
       border-top-left-radius: 0;
       border-top-right-radius: 0; }
   html.theme--documenter-dark .message-body {
-    border-color: #dbdbdb;
+    border-color: #666666;
     border-radius: 4px;
     border-style: solid;
     border-width: 0 0 0 4px;
@@ -4099,7 +4099,7 @@ html.theme--documenter-dark {
     padding: 20px;
     position: relative; }
   html.theme--documenter-dark .modal-card-head {
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #666666;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px; }
   html.theme--documenter-dark .modal-card-title {
@@ -4111,7 +4111,7 @@ html.theme--documenter-dark {
   html.theme--documenter-dark .modal-card-foot {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-top: 1px solid #dbdbdb; }
+    border-top: 1px solid #666666; }
     html.theme--documenter-dark .modal-card-foot .button:not(:last-child) {
       margin-right: 0.5em; }
   html.theme--documenter-dark .modal-card-body {
@@ -4833,7 +4833,7 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .navbar-item.has-dropdown-up .navbar-link::after {
         transform: rotate(135deg) translate(0.25em, -0.25em); }
       html.theme--documenter-dark .navbar-item.has-dropdown-up .navbar-dropdown {
-        border-bottom: 2px solid #dbdbdb;
+        border-bottom: 2px solid #666666;
         border-radius: 6px 6px 0 0;
         border-top: none;
         bottom: 100%;
@@ -4858,7 +4858,7 @@ html.theme--documenter-dark {
       background-color: white;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
-      border-top: 2px solid #dbdbdb;
+      border-top: 2px solid #666666;
       box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
       display: none;
       font-size: 0.875rem;
@@ -4976,7 +4976,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .pagination-next:hover,
     html.theme--documenter-dark .pagination-link:hover {
       border-color: #b5b5b5;
-      color: #eff8fc; }
+      color: #b1ddf1; }
     html.theme--documenter-dark .pagination-previous:focus,
     html.theme--documenter-dark .pagination-next:focus,
     html.theme--documenter-dark .pagination-link:focus {
@@ -5050,13 +5050,13 @@ html.theme--documenter-dark {
   html.theme--documenter-dark .panel-heading,
   html.theme--documenter-dark .panel-tabs,
   html.theme--documenter-dark .panel-block {
-    border-bottom: 1px solid #dbdbdb;
-    border-left: 1px solid #dbdbdb;
-    border-right: 1px solid #dbdbdb; }
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666; }
     html.theme--documenter-dark .panel-heading:first-child,
     html.theme--documenter-dark .panel-tabs:first-child,
     html.theme--documenter-dark .panel-block:first-child {
-      border-top: 1px solid #dbdbdb; }
+      border-top: 1px solid #666666; }
   html.theme--documenter-dark .panel-heading {
     background-color: whitesmoke;
     border-radius: 4px 4px 0 0;
@@ -5071,7 +5071,7 @@ html.theme--documenter-dark {
     font-size: 0.875em;
     justify-content: center; }
     html.theme--documenter-dark .panel-tabs a {
-      border-bottom: 1px solid #dbdbdb;
+      border-bottom: 1px solid #666666;
       margin-bottom: -1px;
       padding: 0.5em; }
       html.theme--documenter-dark .panel-tabs a.is-active {
@@ -5130,7 +5130,7 @@ html.theme--documenter-dark {
     white-space: nowrap; }
     html.theme--documenter-dark .tabs a {
       align-items: center;
-      border-bottom-color: #dbdbdb;
+      border-bottom-color: #666666;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       color: #fbfbfb;
@@ -5149,7 +5149,7 @@ html.theme--documenter-dark {
         color: #87cce9; }
     html.theme--documenter-dark .tabs ul {
       align-items: center;
-      border-bottom-color: #dbdbdb;
+      border-bottom-color: #666666;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       display: flex;
@@ -5179,16 +5179,16 @@ html.theme--documenter-dark {
       border-radius: 4px 4px 0 0; }
       html.theme--documenter-dark .tabs.is-boxed a:hover {
         background-color: whitesmoke;
-        border-bottom-color: #dbdbdb; }
+        border-bottom-color: #666666; }
     html.theme--documenter-dark .tabs.is-boxed li.is-active a {
       background-color: white;
-      border-color: #dbdbdb;
+      border-color: #666666;
       border-bottom-color: transparent !important; }
     html.theme--documenter-dark .tabs.is-fullwidth li {
       flex-grow: 1;
       flex-shrink: 0; }
     html.theme--documenter-dark .tabs.is-toggle a {
-      border-color: #dbdbdb;
+      border-color: #666666;
       border-style: solid;
       border-width: 1px;
       margin-bottom: 0;
@@ -6976,9 +6976,9 @@ html.theme--documenter-dark {
         background-color: rgba(149, 185, 52, 0.5); }
     html.theme--documenter-dark .admonition.is-warning {
       background-color: rgba(203, 51, 101, 0.1);
-      border-color: rgba(203, 51, 101, 0.5); }
+      border-color: rgba(203, 51, 101, 0.4); }
       html.theme--documenter-dark .admonition.is-warning > .admonition-header {
-        background-color: rgba(203, 51, 101, 0.5); }
+        background-color: rgba(203, 51, 101, 0.4); }
     html.theme--documenter-dark .admonition.is-danger {
       background-color: rgba(233, 142, 40, 0.1);
       border-color: rgba(233, 142, 40, 0.5); }
@@ -7012,7 +7012,7 @@ html.theme--documenter-dark {
   html.theme--documenter-dark .docstring {
     margin-bottom: 1em;
     background-color: transparent;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #666666;
     box-shadow: 3px 3px 4px #444444;
     max-width: 100%; }
     html.theme--documenter-dark .docstring > header {
@@ -7023,7 +7023,7 @@ html.theme--documenter-dark {
       background-color: #282f2f;
       box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
       box-shadow: none;
-      border-bottom: 1px solid #dbdbdb; }
+      border-bottom: 1px solid #666666; }
       html.theme--documenter-dark .docstring > header code {
         background-color: transparent; }
       html.theme--documenter-dark .docstring > header .docstring-binding {
@@ -7033,7 +7033,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .docstring > section {
       position: relative;
       padding: 1rem 1.25rem;
-      border-bottom: 1px solid #dbdbdb; }
+      border-bottom: 1px solid #666666; }
       html.theme--documenter-dark .docstring > section:last-child {
         border-bottom: none; }
       html.theme--documenter-dark .docstring > section > a.docs-sourcelink {
@@ -7073,9 +7073,9 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .outdated-warning-overlay a {
       color: #87cce9; }
       html.theme--documenter-dark .outdated-warning-overlay a:hover {
-        color: #eff8fc; }
+        color: #b1ddf1; }
   html.theme--documenter-dark .content pre {
-    border: 1px solid #dbdbdb; }
+    border: 1px solid #666666; }
   html.theme--documenter-dark .content code {
     font-weight: inherit; }
   html.theme--documenter-dark .content a code {
@@ -7134,7 +7134,7 @@ html.theme--documenter-dark {
         margin: 0; } }
   html.theme--documenter-dark #documenter .docs-main header.docs-navbar {
     background-color: #1f2424;
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #666666;
     z-index: 2;
     min-height: 4rem;
     margin-bottom: 1rem;
@@ -7179,7 +7179,7 @@ html.theme--documenter-dark {
           -webkit-transition-duration: 0.7s;
           /* Safari */ } }
   html.theme--documenter-dark #documenter .docs-main section.footnotes {
-    border-top: 1px solid #dbdbdb; }
+    border-top: 1px solid #666666; }
     html.theme--documenter-dark #documenter .docs-main section.footnotes li .tag:first-child, html.theme--documenter-dark #documenter .docs-main section.footnotes li .docstring > section > a.docs-sourcelink:first-child, html.theme--documenter-dark #documenter .docs-main section.footnotes li .content kbd:first-child, html.theme--documenter-dark .content #documenter .docs-main section.footnotes li kbd:first-child {
       margin-right: 1em;
       margin-bottom: 0.4em; }
@@ -7188,7 +7188,7 @@ html.theme--documenter-dark {
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
-    border-top: 1px solid #dbdbdb;
+    border-top: 1px solid #666666;
     padding-top: 1rem;
     padding-bottom: 1rem; }
     @media screen and (max-width: 1055px) {
@@ -7211,7 +7211,7 @@ html.theme--documenter-dark {
     flex-direction: column;
     color: #fbfbfb;
     background-color: #021a35;
-    border-right: 1px solid #dbdbdb;
+    border-right: 1px solid #666666;
     padding: 0;
     flex: 0 0 18rem;
     z-index: 5;
@@ -7251,7 +7251,7 @@ html.theme--documenter-dark {
       html.theme--documenter-dark #documenter .docs-sidebar .docs-package-name a, html.theme--documenter-dark #documenter .docs-sidebar .docs-package-name a:hover {
         color: #fbfbfb; }
     html.theme--documenter-dark #documenter .docs-sidebar .docs-version-selector {
-      border-top: 1px solid #dbdbdb;
+      border-top: 1px solid #666666;
       display: none;
       padding: 0.5rem; }
       html.theme--documenter-dark #documenter .docs-sidebar .docs-version-selector.visible {
@@ -7259,7 +7259,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu {
       flex-grow: 1;
       user-select: none;
-      border-top: 1px solid #dbdbdb;
+      border-top: 1px solid #666666;
       padding-bottom: 1.5rem;
       /* Managing collapsible submenus */ }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu > li > .tocitem {
@@ -7267,7 +7267,7 @@ html.theme--documenter-dark {
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu > li li {
         font-size: 0.95rem;
         margin-left: 1em;
-        border-left: 1px solid #dbdbdb; }
+        border-left: 1px solid #666666; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu input.collapse-toggle {
         display: none; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu ul.collapsed {
@@ -7302,22 +7302,22 @@ html.theme--documenter-dark {
           background: #021a35; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu a.tocitem:hover, html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu label.tocitem:hover {
         color: #fbfbfb;
-        background-color: #87cce9; }
+        background-color: #010b16; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active {
-        border-top: 1px solid #dbdbdb;
-        border-bottom: 1px solid #dbdbdb;
+        border-top: 1px solid #666666;
+        border-bottom: 1px solid #666666;
         background-color: #1f2424; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active .tocitem, html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active .tocitem:hover {
           background-color: #1f2424;
           color: #fff; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active ul.internal .tocitem:hover {
-          background-color: #87cce9;
+          background-color: #021429;
           color: #fff; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu > li.is-active:first-child {
         border-top: none; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu ul.internal {
         margin: 0 0.5rem 0.5rem;
-        border-top: 1px solid #dbdbdb; }
+        border-top: 1px solid #666666; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu ul.internal li {
           font-size: 0.85rem;
           border-left: none;
@@ -7376,9 +7376,28 @@ html.theme--documenter-dark {
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%; }
+  html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input {
+    color: #fff;
+    background-color: #01070e;
+    border-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input::placeholder {
+      color: #fff; }
+    html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input::hover {
+      border-color: #87cce9; }
   html.theme--documenter-dark code.language-julia-repl > span.hljs-meta {
     color: #bbbbbb;
     font-weight: bolder; }
+  html.theme--documenter-dark span.hljs-built_in {
+    color: #043164; }
+  html.theme--documenter-dark span.hljs-keyword {
+    color: #555;
+    font-weight: bold; }
+  html.theme--documenter-dark span.hljs-literal {
+    color: #79962a; }
+  html.theme--documenter-dark span.hljs-number {
+    color: #cb7515; }
   html.theme--documenter-dark .hljs {
     background: #2b2b2b;
     color: #f8f8f2; }
