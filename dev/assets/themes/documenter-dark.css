@@ -639,13 +639,13 @@ a.has-text-primary:hover, a.has-text-primary:focus {
   background-color: #4eb5de !important; }
 
 .has-text-link {
-  color: #87cce9 !important; }
+  color: #5ecaee !important; }
 
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #5cb9e2 !important; }
+  color: #30bbe9 !important; }
 
 .has-background-link {
-  background-color: #87cce9 !important; }
+  background-color: #5ecaee !important; }
 
 .has-text-info {
   color: #3489da !important; }
@@ -1119,13 +1119,13 @@ html.theme--documenter-dark {
     font-weight: 400;
     line-height: 1.5; }
   html.theme--documenter-dark a {
-    color: #87cce9;
+    color: #5ecaee;
     cursor: pointer;
     text-decoration: none; }
     html.theme--documenter-dark a strong {
       color: currentColor; }
     html.theme--documenter-dark a:hover {
-      color: #b1ddf1; }
+      color: #8ad9f3; }
   html.theme--documenter-dark code {
     background-color: #282f2f;
     color: #fff;
@@ -1184,9 +1184,9 @@ html.theme--documenter-dark {
     display: block;
     padding: 1.25rem; }
   html.theme--documenter-dark a.box:hover, html.theme--documenter-dark a.box:focus {
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #87cce9; }
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #5ecaee; }
   html.theme--documenter-dark a.box:active {
-    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #87cce9; }
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #5ecaee; }
   html.theme--documenter-dark .button {
     background-color: white;
     border-color: #dbdbdb;
@@ -1216,12 +1216,12 @@ html.theme--documenter-dark {
       margin-right: calc(-0.375em - 1px); }
     html.theme--documenter-dark .button:hover, html.theme--documenter-dark .button.is-hovered {
       border-color: #b5b5b5;
-      color: #b1ddf1; }
+      color: #8ad9f3; }
     html.theme--documenter-dark .button:focus, html.theme--documenter-dark .button.is-focused {
       border-color: #3c5dcd;
       color: #363636; }
       html.theme--documenter-dark .button:focus:not(:active), html.theme--documenter-dark .button.is-focused:not(:active) {
-        box-shadow: 0 0 0 0.125em rgba(135, 204, 233, 0.25); }
+        box-shadow: 0 0 0 0.125em rgba(94, 202, 238, 0.25); }
     html.theme--documenter-dark .button:active, html.theme--documenter-dark .button.is-active {
       border-color: #4a4a4a;
       color: #363636; }
@@ -1590,30 +1590,30 @@ html.theme--documenter-dark {
           box-shadow: none;
           color: #fff; }
     html.theme--documenter-dark .button.is-link {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       border-color: transparent;
       color: #fff; }
       html.theme--documenter-dark .button.is-link:hover, html.theme--documenter-dark .button.is-link.is-hovered {
-        background-color: #7cc7e7;
+        background-color: #52c6ed;
         border-color: transparent;
         color: #fff; }
       html.theme--documenter-dark .button.is-link:focus, html.theme--documenter-dark .button.is-link.is-focused {
         border-color: transparent;
         color: #fff; }
         html.theme--documenter-dark .button.is-link:focus:not(:active), html.theme--documenter-dark .button.is-link.is-focused:not(:active) {
-          box-shadow: 0 0 0 0.125em rgba(135, 204, 233, 0.25); }
+          box-shadow: 0 0 0 0.125em rgba(94, 202, 238, 0.25); }
       html.theme--documenter-dark .button.is-link:active, html.theme--documenter-dark .button.is-link.is-active {
-        background-color: #72c2e6;
+        background-color: #47c3eb;
         border-color: transparent;
         color: #fff; }
       html.theme--documenter-dark .button.is-link[disabled],
       fieldset[disabled] html.theme--documenter-dark .button.is-link {
-        background-color: #87cce9;
+        background-color: #5ecaee;
         border-color: transparent;
         box-shadow: none; }
       html.theme--documenter-dark .button.is-link.is-inverted {
         background-color: #fff;
-        color: #87cce9; }
+        color: #5ecaee; }
         html.theme--documenter-dark .button.is-link.is-inverted:hover, html.theme--documenter-dark .button.is-link.is-inverted.is-hovered {
           background-color: #f2f2f2; }
         html.theme--documenter-dark .button.is-link.is-inverted[disabled],
@@ -1621,36 +1621,36 @@ html.theme--documenter-dark {
           background-color: #fff;
           border-color: transparent;
           box-shadow: none;
-          color: #87cce9; }
+          color: #5ecaee; }
       html.theme--documenter-dark .button.is-link.is-loading::after {
         border-color: transparent transparent #fff #fff !important; }
       html.theme--documenter-dark .button.is-link.is-outlined {
         background-color: transparent;
-        border-color: #87cce9;
-        color: #87cce9; }
+        border-color: #5ecaee;
+        color: #5ecaee; }
         html.theme--documenter-dark .button.is-link.is-outlined:hover, html.theme--documenter-dark .button.is-link.is-outlined.is-hovered, html.theme--documenter-dark .button.is-link.is-outlined:focus, html.theme--documenter-dark .button.is-link.is-outlined.is-focused {
-          background-color: #87cce9;
-          border-color: #87cce9;
+          background-color: #5ecaee;
+          border-color: #5ecaee;
           color: #fff; }
         html.theme--documenter-dark .button.is-link.is-outlined.is-loading::after {
-          border-color: transparent transparent #87cce9 #87cce9 !important; }
+          border-color: transparent transparent #5ecaee #5ecaee !important; }
         html.theme--documenter-dark .button.is-link.is-outlined.is-loading:hover::after, html.theme--documenter-dark .button.is-link.is-outlined.is-loading.is-hovered::after, html.theme--documenter-dark .button.is-link.is-outlined.is-loading:focus::after, html.theme--documenter-dark .button.is-link.is-outlined.is-loading.is-focused::after {
           border-color: transparent transparent #fff #fff !important; }
         html.theme--documenter-dark .button.is-link.is-outlined[disabled],
         fieldset[disabled] html.theme--documenter-dark .button.is-link.is-outlined {
           background-color: transparent;
-          border-color: #87cce9;
+          border-color: #5ecaee;
           box-shadow: none;
-          color: #87cce9; }
+          color: #5ecaee; }
       html.theme--documenter-dark .button.is-link.is-inverted.is-outlined {
         background-color: transparent;
         border-color: #fff;
         color: #fff; }
         html.theme--documenter-dark .button.is-link.is-inverted.is-outlined:hover, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-hovered, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined:focus, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-focused {
           background-color: #fff;
-          color: #87cce9; }
+          color: #5ecaee; }
         html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-loading:hover::after, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-loading.is-hovered::after, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-loading:focus::after, html.theme--documenter-dark .button.is-link.is-inverted.is-outlined.is-loading.is-focused::after {
-          border-color: transparent transparent #87cce9 #87cce9 !important; }
+          border-color: transparent transparent #5ecaee #5ecaee !important; }
         html.theme--documenter-dark .button.is-link.is-inverted.is-outlined[disabled],
         fieldset[disabled] html.theme--documenter-dark .button.is-link.is-inverted.is-outlined {
           background-color: transparent;
@@ -2310,7 +2310,7 @@ html.theme--documenter-dark {
       background-color: #4eb5de;
       color: #fff; }
     html.theme--documenter-dark .notification.is-link {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
     html.theme--documenter-dark .notification.is-info {
       background-color: #3489da;
@@ -2384,13 +2384,13 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .progress.is-primary:indeterminate, html.theme--documenter-dark .docstring > section > a.progress.docs-sourcelink:indeterminate {
       background-image: linear-gradient(to right, #4eb5de 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-link::-webkit-progress-value {
-      background-color: #87cce9; }
+      background-color: #5ecaee; }
     html.theme--documenter-dark .progress.is-link::-moz-progress-bar {
-      background-color: #87cce9; }
+      background-color: #5ecaee; }
     html.theme--documenter-dark .progress.is-link::-ms-fill {
-      background-color: #87cce9; }
+      background-color: #5ecaee; }
     html.theme--documenter-dark .progress.is-link:indeterminate {
-      background-image: linear-gradient(to right, #87cce9 30%, #666666 30%); }
+      background-image: linear-gradient(to right, #5ecaee 30%, #666666 30%); }
     html.theme--documenter-dark .progress.is-info::-webkit-progress-value {
       background-color: #3489da; }
     html.theme--documenter-dark .progress.is-info::-moz-progress-bar {
@@ -2485,8 +2485,8 @@ html.theme--documenter-dark {
         color: #fff; }
       html.theme--documenter-dark .table td.is-link,
       html.theme--documenter-dark .table th.is-link {
-        background-color: #87cce9;
-        border-color: #87cce9;
+        background-color: #5ecaee;
+        border-color: #5ecaee;
         color: #fff; }
       html.theme--documenter-dark .table td.is-info,
       html.theme--documenter-dark .table th.is-info {
@@ -2645,7 +2645,7 @@ html.theme--documenter-dark {
       background-color: #4eb5de;
       color: #fff; }
     html.theme--documenter-dark .tag:not(body).is-link, html.theme--documenter-dark .docstring > section > a.docs-sourcelink:not(body).is-link, html.theme--documenter-dark .content kbd:not(body).is-link {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
     html.theme--documenter-dark .tag:not(body).is-info, html.theme--documenter-dark .docstring > section > a.docs-sourcelink:not(body).is-info, html.theme--documenter-dark .content kbd:not(body).is-info {
       background-color: #3489da;
@@ -2813,10 +2813,10 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .input:-ms-input-placeholder, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input:-ms-input-placeholder, html.theme--documenter-dark .textarea:-ms-input-placeholder, html.theme--documenter-dark .select select:-ms-input-placeholder {
       color: rgba(54, 54, 54, 0.3); }
     html.theme--documenter-dark .input:hover, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input:hover, html.theme--documenter-dark .textarea:hover, html.theme--documenter-dark .select select:hover, html.theme--documenter-dark .is-hovered.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-hovered, html.theme--documenter-dark .is-hovered.textarea, html.theme--documenter-dark .select select.is-hovered {
-      border-color: #42aedd; }
+      border-color: #18b0e2; }
     html.theme--documenter-dark .input:focus, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input:focus, html.theme--documenter-dark .textarea:focus, html.theme--documenter-dark .select select:focus, html.theme--documenter-dark .is-focused.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-focused, html.theme--documenter-dark .is-focused.textarea, html.theme--documenter-dark .select select.is-focused, html.theme--documenter-dark .input:active, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input:active, html.theme--documenter-dark .textarea:active, html.theme--documenter-dark .select select:active, html.theme--documenter-dark .is-active.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-active, html.theme--documenter-dark .is-active.textarea, html.theme--documenter-dark .select select.is-active {
       border-color: #fff;
-      box-shadow: 0 0 0 0.125em rgba(135, 204, 233, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(94, 202, 238, 0.25); }
     html.theme--documenter-dark .input[disabled], html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input[disabled], html.theme--documenter-dark .textarea[disabled], html.theme--documenter-dark .select select[disabled],
     fieldset[disabled] html.theme--documenter-dark .input,
     fieldset[disabled] html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input,
@@ -2877,9 +2877,9 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .is-primary.input:focus, html.theme--documenter-dark .docstring > section > a.input.docs-sourcelink:focus, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-primary:focus, html.theme--documenter-dark .is-primary.textarea:focus, html.theme--documenter-dark .docstring > section > a.textarea.docs-sourcelink:focus, html.theme--documenter-dark .is-primary.is-focused.input, html.theme--documenter-dark .docstring > section > a.is-focused.input.docs-sourcelink, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-primary.is-focused, html.theme--documenter-dark .is-primary.is-focused.textarea, html.theme--documenter-dark .docstring > section > a.is-focused.textarea.docs-sourcelink, html.theme--documenter-dark .is-primary.input:active, html.theme--documenter-dark .docstring > section > a.input.docs-sourcelink:active, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-primary:active, html.theme--documenter-dark .is-primary.textarea:active, html.theme--documenter-dark .docstring > section > a.textarea.docs-sourcelink:active, html.theme--documenter-dark .is-primary.is-active.input, html.theme--documenter-dark .docstring > section > a.is-active.input.docs-sourcelink, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-primary.is-active, html.theme--documenter-dark .is-primary.is-active.textarea, html.theme--documenter-dark .docstring > section > a.is-active.textarea.docs-sourcelink {
         box-shadow: 0 0 0 0.125em rgba(78, 181, 222, 0.25); }
     html.theme--documenter-dark .is-link.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-link, html.theme--documenter-dark .is-link.textarea {
-      border-color: #87cce9; }
+      border-color: #5ecaee; }
       html.theme--documenter-dark .is-link.input:focus, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-link:focus, html.theme--documenter-dark .is-link.textarea:focus, html.theme--documenter-dark .is-link.is-focused.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-link.is-focused, html.theme--documenter-dark .is-link.is-focused.textarea, html.theme--documenter-dark .is-link.input:active, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-link:active, html.theme--documenter-dark .is-link.textarea:active, html.theme--documenter-dark .is-link.is-active.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-link.is-active, html.theme--documenter-dark .is-link.is-active.textarea {
-        box-shadow: 0 0 0 0.125em rgba(135, 204, 233, 0.25); }
+        box-shadow: 0 0 0 0.125em rgba(94, 202, 238, 0.25); }
     html.theme--documenter-dark .is-info.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-info, html.theme--documenter-dark .is-info.textarea {
       border-color: #3489da; }
       html.theme--documenter-dark .is-info.input:focus, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-info:focus, html.theme--documenter-dark .is-info.textarea:focus, html.theme--documenter-dark .is-info.is-focused.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-info.is-focused, html.theme--documenter-dark .is-info.is-focused.textarea, html.theme--documenter-dark .is-info.input:active, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-info:active, html.theme--documenter-dark .is-info.textarea:active, html.theme--documenter-dark .is-info.is-active.input, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.is-info.is-active, html.theme--documenter-dark .is-info.is-active.textarea {
@@ -2956,7 +2956,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .select:not(.is-multiple) {
       height: 2.25em; }
     html.theme--documenter-dark .select:not(.is-multiple):not(.is-loading)::after {
-      border-color: #87cce9;
+      border-color: #5ecaee;
       right: 1.125em;
       z-index: 4; }
     html.theme--documenter-dark .select.is-rounded select, html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input.select select {
@@ -3023,13 +3023,13 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .select.is-primary select:focus, html.theme--documenter-dark .docstring > section > a.select.docs-sourcelink select:focus, html.theme--documenter-dark .select.is-primary select.is-focused, html.theme--documenter-dark .docstring > section > a.select.docs-sourcelink select.is-focused, html.theme--documenter-dark .select.is-primary select:active, html.theme--documenter-dark .docstring > section > a.select.docs-sourcelink select:active, html.theme--documenter-dark .select.is-primary select.is-active, html.theme--documenter-dark .docstring > section > a.select.docs-sourcelink select.is-active {
         box-shadow: 0 0 0 0.125em rgba(78, 181, 222, 0.25); }
     html.theme--documenter-dark .select.is-link:not(:hover)::after {
-      border-color: #87cce9; }
+      border-color: #5ecaee; }
     html.theme--documenter-dark .select.is-link select {
-      border-color: #87cce9; }
+      border-color: #5ecaee; }
       html.theme--documenter-dark .select.is-link select:hover, html.theme--documenter-dark .select.is-link select.is-hovered {
-        border-color: #72c2e6; }
+        border-color: #47c3eb; }
       html.theme--documenter-dark .select.is-link select:focus, html.theme--documenter-dark .select.is-link select.is-focused, html.theme--documenter-dark .select.is-link select:active, html.theme--documenter-dark .select.is-link select.is-active {
-        box-shadow: 0 0 0 0.125em rgba(135, 204, 233, 0.25); }
+        box-shadow: 0 0 0 0.125em rgba(94, 202, 238, 0.25); }
     html.theme--documenter-dark .select.is-info:not(:hover)::after {
       border-color: #3489da; }
     html.theme--documenter-dark .select.is-info select {
@@ -3173,19 +3173,19 @@ html.theme--documenter-dark {
       border-color: transparent;
       color: #fff; }
     html.theme--documenter-dark .file.is-link .file-cta {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       border-color: transparent;
       color: #fff; }
     html.theme--documenter-dark .file.is-link:hover .file-cta, html.theme--documenter-dark .file.is-link.is-hovered .file-cta {
-      background-color: #7cc7e7;
+      background-color: #52c6ed;
       border-color: transparent;
       color: #fff; }
     html.theme--documenter-dark .file.is-link:focus .file-cta, html.theme--documenter-dark .file.is-link.is-focused .file-cta {
       border-color: transparent;
-      box-shadow: 0 0 0.5em rgba(135, 204, 233, 0.25);
+      box-shadow: 0 0 0.5em rgba(94, 202, 238, 0.25);
       color: #fff; }
     html.theme--documenter-dark .file.is-link:active .file-cta, html.theme--documenter-dark .file.is-link.is-active .file-cta {
-      background-color: #72c2e6;
+      background-color: #47c3eb;
       border-color: transparent;
       color: #fff; }
     html.theme--documenter-dark .file.is-info .file-cta {
@@ -3393,7 +3393,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .help.is-primary, html.theme--documenter-dark .docstring > section > a.help.docs-sourcelink {
       color: #4eb5de; }
     html.theme--documenter-dark .help.is-link {
-      color: #87cce9; }
+      color: #5ecaee; }
     html.theme--documenter-dark .help.is-info {
       color: #3489da; }
     html.theme--documenter-dark .help.is-success {
@@ -3610,12 +3610,12 @@ html.theme--documenter-dark {
     white-space: nowrap; }
     html.theme--documenter-dark .breadcrumb a {
       align-items: center;
-      color: #87cce9;
+      color: #5ecaee;
       display: flex;
       justify-content: center;
       padding: 0 0.75em; }
       html.theme--documenter-dark .breadcrumb a:hover {
-        color: #b1ddf1; }
+        color: #8ad9f3; }
     html.theme--documenter-dark .breadcrumb li {
       align-items: center;
       display: flex; }
@@ -3754,7 +3754,7 @@ html.theme--documenter-dark {
       color: #0a0a0a; }
     html.theme--documenter-dark a.dropdown-item.is-active,
     html.theme--documenter-dark button.dropdown-item.is-active {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
   html.theme--documenter-dark .dropdown-divider {
     background-color: #666666;
@@ -3845,7 +3845,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .list-item:not(:last-child) {
       border-bottom: 1px solid #666666; }
     html.theme--documenter-dark .list-item.is-active {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
   html.theme--documenter-dark a.list-item {
     background-color: whitesmoke;
@@ -3910,7 +3910,7 @@ html.theme--documenter-dark {
         background-color: whitesmoke;
         color: #fff; }
       html.theme--documenter-dark .menu-list a.is-active {
-        background-color: #87cce9;
+        background-color: #5ecaee;
         color: #fff; }
     html.theme--documenter-dark .menu-list li ul {
       border-left: 1px solid #666666;
@@ -3981,13 +3981,13 @@ html.theme--documenter-dark {
         border-color: #4eb5de;
         color: #1f556a; }
     html.theme--documenter-dark .message.is-link {
-      background-color: #f6fbfd; }
+      background-color: #f6fcfe; }
       html.theme--documenter-dark .message.is-link .message-header {
-        background-color: #87cce9;
+        background-color: #5ecaee;
         color: #fff; }
       html.theme--documenter-dark .message.is-link .message-body {
-        border-color: #87cce9;
-        color: #265e77; }
+        border-color: #5ecaee;
+        color: #18576c; }
     html.theme--documenter-dark .message.is-info {
       background-color: #f6fafd; }
       html.theme--documenter-dark .message.is-info .message-header {
@@ -4390,7 +4390,7 @@ html.theme--documenter-dark {
           background-color: #4eb5de;
           color: #fff; } }
     html.theme--documenter-dark .navbar.is-link {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
       html.theme--documenter-dark .navbar.is-link .navbar-brand > .navbar-item,
       html.theme--documenter-dark .navbar.is-link .navbar-brand .navbar-link {
@@ -4399,7 +4399,7 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .navbar.is-link .navbar-brand .navbar-link:focus,
       html.theme--documenter-dark .navbar.is-link .navbar-brand .navbar-link:hover,
       html.theme--documenter-dark .navbar.is-link .navbar-brand .navbar-link.is-active {
-        background-color: #72c2e6;
+        background-color: #47c3eb;
         color: #fff; }
       html.theme--documenter-dark .navbar.is-link .navbar-brand .navbar-link::after {
         border-color: #fff; }
@@ -4421,7 +4421,7 @@ html.theme--documenter-dark {
         html.theme--documenter-dark .navbar.is-link .navbar-end .navbar-link:focus,
         html.theme--documenter-dark .navbar.is-link .navbar-end .navbar-link:hover,
         html.theme--documenter-dark .navbar.is-link .navbar-end .navbar-link.is-active {
-          background-color: #72c2e6;
+          background-color: #47c3eb;
           color: #fff; }
         html.theme--documenter-dark .navbar.is-link .navbar-start .navbar-link::after,
         html.theme--documenter-dark .navbar.is-link .navbar-end .navbar-link::after {
@@ -4429,10 +4429,10 @@ html.theme--documenter-dark {
         html.theme--documenter-dark .navbar.is-link .navbar-item.has-dropdown:focus .navbar-link,
         html.theme--documenter-dark .navbar.is-link .navbar-item.has-dropdown:hover .navbar-link,
         html.theme--documenter-dark .navbar.is-link .navbar-item.has-dropdown.is-active .navbar-link {
-          background-color: #72c2e6;
+          background-color: #47c3eb;
           color: #fff; }
         html.theme--documenter-dark .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
-          background-color: #87cce9;
+          background-color: #5ecaee;
           color: #fff; } }
     html.theme--documenter-dark .navbar.is-info {
       background-color: #3489da;
@@ -4706,7 +4706,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .navbar-link:hover,
     html.theme--documenter-dark .navbar-link.is-active {
       background-color: #fafafa;
-      color: #87cce9; }
+      color: #5ecaee; }
   html.theme--documenter-dark .navbar-item {
     display: block;
     flex-grow: 0;
@@ -4724,13 +4724,13 @@ html.theme--documenter-dark {
       padding-bottom: calc(0.5rem - 1px); }
       html.theme--documenter-dark .navbar-item.is-tab:focus, html.theme--documenter-dark .navbar-item.is-tab:hover {
         background-color: transparent;
-        border-bottom-color: #87cce9; }
+        border-bottom-color: #5ecaee; }
       html.theme--documenter-dark .navbar-item.is-tab.is-active {
         background-color: transparent;
-        border-bottom-color: #87cce9;
+        border-bottom-color: #5ecaee;
         border-bottom-style: solid;
         border-bottom-width: 3px;
-        color: #87cce9;
+        color: #5ecaee;
         padding-bottom: calc(0.5rem - 3px); }
   html.theme--documenter-dark .navbar-content {
     flex-grow: 1;
@@ -4738,7 +4738,7 @@ html.theme--documenter-dark {
   html.theme--documenter-dark .navbar-link:not(.is-arrowless) {
     padding-right: 2.5em; }
     html.theme--documenter-dark .navbar-link:not(.is-arrowless)::after {
-      border-color: #87cce9;
+      border-color: #5ecaee;
       margin-top: -0.375em;
       right: 1.125em; }
   html.theme--documenter-dark .navbar-dropdown {
@@ -4819,7 +4819,7 @@ html.theme--documenter-dark {
         color: #0a0a0a; }
       html.theme--documenter-dark .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
         background-color: whitesmoke;
-        color: #87cce9; }
+        color: #5ecaee; }
     html.theme--documenter-dark .navbar-burger {
       display: none; }
     html.theme--documenter-dark .navbar-item,
@@ -4877,7 +4877,7 @@ html.theme--documenter-dark {
           color: #0a0a0a; }
         html.theme--documenter-dark .navbar-dropdown a.navbar-item.is-active {
           background-color: whitesmoke;
-          color: #87cce9; }
+          color: #5ecaee; }
       .navbar.is-spaced html.theme--documenter-dark .navbar-dropdown, html.theme--documenter-dark .navbar-dropdown.is-boxed {
         border-radius: 6px;
         border-top: none;
@@ -4976,7 +4976,7 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .pagination-next:hover,
     html.theme--documenter-dark .pagination-link:hover {
       border-color: #b5b5b5;
-      color: #b1ddf1; }
+      color: #8ad9f3; }
     html.theme--documenter-dark .pagination-previous:focus,
     html.theme--documenter-dark .pagination-next:focus,
     html.theme--documenter-dark .pagination-link:focus {
@@ -4999,8 +4999,8 @@ html.theme--documenter-dark {
     padding-right: 0.75em;
     white-space: nowrap; }
   html.theme--documenter-dark .pagination-link.is-current {
-    background-color: #87cce9;
-    border-color: #87cce9;
+    background-color: #5ecaee;
+    border-color: #5ecaee;
     color: #fff; }
   html.theme--documenter-dark .pagination-ellipsis {
     color: #b5b5b5;
@@ -5080,7 +5080,7 @@ html.theme--documenter-dark {
   html.theme--documenter-dark .panel-list a {
     color: #fbfbfb; }
     html.theme--documenter-dark .panel-list a:hover {
-      color: #87cce9; }
+      color: #5ecaee; }
   html.theme--documenter-dark .panel-block {
     align-items: center;
     color: #fff;
@@ -5096,10 +5096,10 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .panel-block.is-wrapped {
       flex-wrap: wrap; }
     html.theme--documenter-dark .panel-block.is-active {
-      border-left-color: #87cce9;
+      border-left-color: #5ecaee;
       color: #363636; }
       html.theme--documenter-dark .panel-block.is-active .panel-icon {
-        color: #87cce9; }
+        color: #5ecaee; }
   html.theme--documenter-dark a.panel-block,
   html.theme--documenter-dark label.panel-block {
     cursor: pointer; }
@@ -5145,8 +5145,8 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .tabs li {
       display: block; }
       html.theme--documenter-dark .tabs li.is-active a {
-        border-bottom-color: #87cce9;
-        color: #87cce9; }
+        border-bottom-color: #5ecaee;
+        color: #5ecaee; }
     html.theme--documenter-dark .tabs ul {
       align-items: center;
       border-bottom-color: #666666;
@@ -5204,8 +5204,8 @@ html.theme--documenter-dark {
     html.theme--documenter-dark .tabs.is-toggle li:last-child a {
       border-radius: 0 4px 4px 0; }
     html.theme--documenter-dark .tabs.is-toggle li.is-active a {
-      background-color: #87cce9;
-      border-color: #87cce9;
+      background-color: #5ecaee;
+      border-color: #5ecaee;
       color: #fff;
       z-index: 1; }
     html.theme--documenter-dark .tabs.is-toggle ul {
@@ -6644,7 +6644,7 @@ html.theme--documenter-dark {
           html.theme--documenter-dark .hero.is-primary.is-bold .navbar-menu, html.theme--documenter-dark .docstring > section > a.hero.is-bold.docs-sourcelink .navbar-menu {
             background-image: linear-gradient(141deg, #1bc7de 0%, #4eb5de 71%, #5fa9e7 100%); } }
     html.theme--documenter-dark .hero.is-link {
-      background-color: #87cce9;
+      background-color: #5ecaee;
       color: #fff; }
       html.theme--documenter-dark .hero.is-link a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
       html.theme--documenter-dark .hero.is-link strong {
@@ -6658,14 +6658,14 @@ html.theme--documenter-dark {
           color: #fff; }
       @media screen and (max-width: 1055px) {
         html.theme--documenter-dark .hero.is-link .navbar-menu {
-          background-color: #87cce9; } }
+          background-color: #5ecaee; } }
       html.theme--documenter-dark .hero.is-link .navbar-item,
       html.theme--documenter-dark .hero.is-link .navbar-link {
         color: rgba(255, 255, 255, 0.7); }
       html.theme--documenter-dark .hero.is-link a.navbar-item:hover, html.theme--documenter-dark .hero.is-link a.navbar-item.is-active,
       html.theme--documenter-dark .hero.is-link .navbar-link:hover,
       html.theme--documenter-dark .hero.is-link .navbar-link.is-active {
-        background-color: #72c2e6;
+        background-color: #47c3eb;
         color: #fff; }
       html.theme--documenter-dark .hero.is-link .tabs a {
         color: #fff;
@@ -6681,12 +6681,12 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .hero.is-link .tabs.is-boxed li.is-active a, html.theme--documenter-dark .hero.is-link .tabs.is-boxed li.is-active a:hover, html.theme--documenter-dark .hero.is-link .tabs.is-toggle li.is-active a, html.theme--documenter-dark .hero.is-link .tabs.is-toggle li.is-active a:hover {
         background-color: #fff;
         border-color: #fff;
-        color: #87cce9; }
+        color: #5ecaee; }
       html.theme--documenter-dark .hero.is-link.is-bold {
-        background-image: linear-gradient(141deg, #52d6eb 0%, #87cce9 71%, #9ac8f0 100%); }
+        background-image: linear-gradient(141deg, #24e4f4 0%, #5ecaee 71%, #71bef4 100%); }
         @media screen and (max-width: 768px) {
           html.theme--documenter-dark .hero.is-link.is-bold .navbar-menu {
-            background-image: linear-gradient(141deg, #52d6eb 0%, #87cce9 71%, #9ac8f0 100%); } }
+            background-image: linear-gradient(141deg, #24e4f4 0%, #5ecaee 71%, #71bef4 100%); } }
     html.theme--documenter-dark .hero.is-info {
       background-color: #3489da;
       color: #fff; }
@@ -6965,25 +6965,25 @@ html.theme--documenter-dark {
       html.theme--documenter-dark .admonition.is-default > .admonition-header {
         background-color: rgba(68, 68, 68, 0.5); }
     html.theme--documenter-dark .admonition.is-info {
-      background-color: rgba(4, 49, 100, 0.3);
-      border-color: rgba(4, 49, 100, 0.5); }
+      background-color: rgba(0, 32, 91, 0.3);
+      border-color: rgba(0, 32, 91, 0.5); }
       html.theme--documenter-dark .admonition.is-info > .admonition-header {
-        background-color: rgba(4, 49, 100, 0.5); }
+        background-color: rgba(0, 32, 91, 0.5); }
     html.theme--documenter-dark .admonition.is-success {
-      background-color: rgba(149, 185, 52, 0.1);
-      border-color: rgba(149, 185, 52, 0.5); }
+      background-color: rgba(164, 196, 36, 0.1);
+      border-color: rgba(164, 196, 36, 0.5); }
       html.theme--documenter-dark .admonition.is-success > .admonition-header {
-        background-color: rgba(149, 185, 52, 0.5); }
+        background-color: rgba(164, 196, 36, 0.5); }
     html.theme--documenter-dark .admonition.is-warning {
-      background-color: rgba(203, 51, 101, 0.1);
-      border-color: rgba(203, 51, 101, 0.4); }
+      background-color: rgba(215, 51, 103, 0.1);
+      border-color: rgba(215, 51, 103, 0.4); }
       html.theme--documenter-dark .admonition.is-warning > .admonition-header {
-        background-color: rgba(203, 51, 101, 0.4); }
+        background-color: rgba(215, 51, 103, 0.4); }
     html.theme--documenter-dark .admonition.is-danger {
-      background-color: rgba(233, 142, 40, 0.1);
-      border-color: rgba(233, 142, 40, 0.5); }
+      background-color: rgba(242, 149, 18, 0.1);
+      border-color: rgba(242, 149, 18, 0.5); }
       html.theme--documenter-dark .admonition.is-danger > .admonition-header {
-        background-color: rgba(233, 142, 40, 0.5); }
+        background-color: rgba(242, 149, 18, 0.5); }
     html.theme--documenter-dark .admonition.is-compat {
       background-color: rgba(68, 68, 68, 0.1);
       border-color: #00a1b7; }
@@ -7059,8 +7059,8 @@ html.theme--documenter-dark {
     right: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 999;
-    background-color: rgba(233, 142, 40, 0.1);
-    border-bottom: 3px solid rgba(233, 142, 40, 0.5);
+    background-color: rgba(242, 149, 18, 0.1);
+    border-bottom: 3px solid rgba(242, 149, 18, 0.5);
     padding: 10px 35px;
     text-align: center;
     font-size: 15px; }
@@ -7071,15 +7071,15 @@ html.theme--documenter-dark {
       cursor: pointer;
       width: 12px; }
     html.theme--documenter-dark .outdated-warning-overlay a {
-      color: #87cce9; }
+      color: #5ecaee; }
       html.theme--documenter-dark .outdated-warning-overlay a:hover {
-        color: #b1ddf1; }
+        color: #8ad9f3; }
   html.theme--documenter-dark .content pre {
     border: 1px solid #666666; }
   html.theme--documenter-dark .content code {
     font-weight: inherit; }
   html.theme--documenter-dark .content a code {
-    color: #87cce9; }
+    color: #5ecaee; }
   html.theme--documenter-dark .content h1 code, html.theme--documenter-dark .content h2 code, html.theme--documenter-dark .content h3 code, html.theme--documenter-dark .content h4 code, html.theme--documenter-dark .content h5 code, html.theme--documenter-dark .content h6 code {
     color: #fff; }
   html.theme--documenter-dark .content table {
@@ -7210,7 +7210,7 @@ html.theme--documenter-dark {
     display: flex;
     flex-direction: column;
     color: #fbfbfb;
-    background-color: #021a35;
+    background-color: #000f2a;
     border-right: 1px solid #666666;
     padding: 0;
     flex: 0 0 18rem;
@@ -7299,10 +7299,10 @@ html.theme--documenter-dark {
         padding: 0.5rem 0.5rem; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu .tocitem, html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu .tocitem:hover {
           color: #fbfbfb;
-          background: #021a35; }
+          background: #000f2a; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu a.tocitem:hover, html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu label.tocitem:hover {
         color: #fbfbfb;
-        background-color: #010b16; }
+        background-color: #000309; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active {
         border-top: 1px solid #666666;
         border-bottom: 1px solid #666666;
@@ -7311,7 +7311,7 @@ html.theme--documenter-dark {
           background-color: #1f2424;
           color: #fff; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu li.is-active ul.internal .tocitem:hover {
-          background-color: #021429;
+          background-color: #000a1e;
           color: #fff; }
       html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu > li.is-active:first-child {
         border-top: none; }
@@ -7344,7 +7344,7 @@ html.theme--documenter-dark {
           background: none; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu::-webkit-scrollbar-thumb {
           border-radius: 5px 0px 0px 5px;
-          background: #01070e; }
+          background: #000001; }
         html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu::-webkit-scrollbar-thumb:hover {
           background: black; } }
     @media screen and (max-width: 1055px) {
@@ -7356,7 +7356,7 @@ html.theme--documenter-dark {
           background: none; }
         html.theme--documenter-dark #documenter .docs-sidebar::-webkit-scrollbar-thumb {
           border-radius: 5px 0px 0px 5px;
-          background: #01070e; }
+          background: #000001; }
         html.theme--documenter-dark #documenter .docs-sidebar::-webkit-scrollbar-thumb:hover {
           background: black; } }
   html.theme--documenter-dark #documenter .docs-main #documenter-search-info {
@@ -7378,26 +7378,26 @@ html.theme--documenter-dark {
     text-size-adjust: 100%; }
   html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input {
     color: #fff;
-    background-color: #01070e;
+    background-color: #000001;
     border-color: black;
     margin-top: 1rem;
     margin-bottom: 1rem; }
     html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input::placeholder {
       color: #fff; }
     html.theme--documenter-dark #documenter .docs-sidebar form.docs-search > input::hover {
-      border-color: #87cce9; }
+      border-color: #5ecaee; }
   html.theme--documenter-dark code.language-julia-repl > span.hljs-meta {
     color: #bbbbbb;
     font-weight: bolder; }
   html.theme--documenter-dark span.hljs-built_in {
-    color: #043164; }
+    color: #00205b; }
   html.theme--documenter-dark span.hljs-keyword {
     color: #dddddd;
     font-weight: bold; }
   html.theme--documenter-dark span.hljs-literal {
-    color: #95b934; }
+    color: #a4c424; }
   html.theme--documenter-dark span.hljs-number {
-    color: #e98e28; }
+    color: #f29512; }
   html.theme--documenter-dark .hljs {
     background: #2b2b2b;
     color: #f8f8f2; }
