@@ -14,7 +14,7 @@
 # A = sprandsymposdef(10_000, 0.01);
 
 # MPI.Barrier(comm)
-# R = submatrix_apply(inv, A, MPISerial())
+# R = submatrix_apply(inv, A, MPIDistributed())
 # if rank == 0 # test on master
 #     @show maximum(abs.(R .- R̃))
 # end

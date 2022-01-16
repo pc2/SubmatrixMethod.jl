@@ -16,7 +16,7 @@ maximum(abs.(Ainv .- inv(Matrix(A))))
 # Let's benchmark the serial submatrix method
 @btime submatrix_apply($inv, $A);
 
-# ## `DistributedSerial`
+# ## `JLDistributed`
 
 # Add a few Julia workers.
 # ```julia
@@ -38,13 +38,13 @@ maximum(abs.(Ainv .- inv(Matrix(A))))
 
 # Let's see if things work correctly.
 # ```julia
-# Ainv = submatrix_apply(inv, A, DistributedSerial())
+# Ainv = submatrix_apply(inv, A, JLDistributed())
 # maximum(abs.(Ainv .- inv(Matrix(A))))
 # ```
 
 # And now let's benchmark.
 # ```julia
-# @btime submatrix_apply($inv, $A, $(DistributedSerial()));
+# @btime submatrix_apply($inv, $A, $(JLDistributed()));
 # ```
 
 # ### `HDF5Input`
@@ -58,7 +58,7 @@ maximum(abs.(Ainv .- inv(Matrix(A))))
 # # if an A::SparseMatrixCSC is provided to the HDF5Input constructor
 # # the matrix is written to file before the HDF5Input wrapper is created
 # Ah5 = HDF5Input(A; fname="A.h5", path="A", mmap=mmap, overwrite=true)
-# R = submatrix_apply(inv, Ah5, DistributedSerial())
+# R = submatrix_apply(inv, Ah5, JLDistributed())
 # ```
 
 # That's it.
